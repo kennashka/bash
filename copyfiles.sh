@@ -8,7 +8,7 @@
 
 
 sudo yum update -y
-echo "Type desired folder name for your keypair, followed by [ENTER]:"
+echo "Type desired name for your keypair, followed by [ENTER]:"
 read pemkey
 touch "$pemkey"
 cp *.pem $pemkey
